@@ -4,13 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
   <script src="main.js" defer></script>
+  <script src="https://kit.fontawesome.com/776211f7b1.js" crossorigin="anonymous"></script>
+  <title>Weather App</title>
 </head>
 <body>
-  <form action="" id="form">
-    <input type="search" id="search" placeholder="Enter your city here">
-    <button id="search-btn" type="submit">Search</button>
-  </form> 
+  <header id="main-header">
+    <div class="foo">
+      <i class="fa-solid fa-cloud fa-2xl"></i>
+      <h1>Weather App</h1>
+    </div>
+    <div class="bar">
+      <form action="" id="form">
+        <input type="search" id="search" placeholder="Enter your city here">
+        <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </form> 
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <header>
+        <p>OVERCAST</p>
+        <h1>PH, MANILA</h1>
+      </header>
+      <div class="info-container">
+        <div class="temp">
+          <h1>69<span>&#8451;</span></h1>
+        </div>
+        <div class="more-info">
+          <P>FEELS LIKE: 30<span>&#8451;</span></P>
+          <P>WIND: 5MPH</P>
+          <P>HUMIDITY: 60%</P>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

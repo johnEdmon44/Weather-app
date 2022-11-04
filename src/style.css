@@ -1,3 +1,110 @@
-h1 {
-  color: red;
+*,*::before,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('./images/bg.jpg');
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Varela', sans-serif;
+}
+
+
+#main-header {
+  color: white;
+}
+
+
+
+#form input,
+button {
+  all: unset;
+}
+
+
+#form {
+  color: white;
+  text-align: center;
+}
+
+
+#search-btn {
+  color: white;
+  cursor: pointer;
+}
+
+
+.foo {
+  background-color: black;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.foo h1 {
+  margin-left: 1%;
+}
+
+
+.bar {
+  border-bottom: 1px solid rgb(162, 162, 162);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+
+.container {
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+
+.info-container {
+  display: flex;
+}
+
+
+.container header {
+  font-size: 1.7rem;
+}
+
+
+
+.more-info > * {
+  padding: 5px;
+}
+
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.temp {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  border-right: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
 }
